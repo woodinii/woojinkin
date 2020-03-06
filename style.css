@@ -127,23 +127,38 @@ opacity: 0.1;
 
 }
 .content3{
-
-  margin : 0 auto;
+text-align: center;
+width:100%;
+  border: 1px solid black;
   float:left;
 }
 .picture{
-  width:410px;
-  height: 420px;
-    float:left;
+width:30%;
+height:400px;
+float:left;
+display:inline-block;
 }
 .text{
-  width:350px;
-  height:420px;
+  display:table;
+  width:30%;
   float:left;
-  text-align: center;
+  height:400px;
+
   background-color: #EAEAEA;
 }
+.textcontent{
+display:table-cell;
+  vertical-align:middle;
+}
+.bigcontent{
+
+text-align: center;
+width:40%;
+  float:left;
+  height:400px;
+}
 .smallcontent{
+
   float:left;
   padding:0px 10px 10px 0px;
 }
@@ -163,11 +178,7 @@ opacity: 0.1;
   text-align: center;
   background: #EAEAEA;
 }
-.contents{
-  display :inline-block;
-  text-align: center;
-  margin : 40px;
-}
+
 a{
   text-decoration:none;
   color:black;
